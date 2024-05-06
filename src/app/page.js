@@ -156,7 +156,7 @@ export default function Home() {
           <div className="small-content"><span><b>DPI tolerant technology</b></span></div>
           <div className="small-content">
             <span>Algorithm works with images or scans from 250 dpi and</span>
-            <span>higher and doesn't require exact DPI values</span>
+            <span>higher and doesnt require exact DPI values</span>
             <span>(for example, exactly 500 dpi)</span>
           </div></div>
         <div class="card-each">
@@ -176,8 +176,8 @@ export default function Home() {
       <div className="market-head"><h1>Markets</h1></div>
       <div className="sub-market-head"><h3>National ID</h3></div>
       <div className="content-image-container">
-        <div className="contents1"><h6>National biometric system plays a key role in fraud prevention, providing of digital governmental services and national security. Fingerprint recognition is a "must-have" biometric modality in such systems: it's reliable, unique for any individuals including identical twins and changes less over time than face.<br/>
-                Our algorithms are designed to work with millions of records in enrollment databases with high accuracy and low false accept rate even for a search with one finger. High matching speed - up to 1 billion matches per 1 s - is a crucial advantage for big scale projects. It significantly saves customer's budget: numbers of required matching servers is up to 100 times less than the same numbers for "traditional" recognition algorithms</h6></div>
+        <div className="contents1"><h6>National biometric system plays a key role in fraud prevention providing of digital governmental services and national security. Fingerprint recognition is a must-have biometric modality in such systems: its reliable, unique for any individuals including identical twins and changes less over time than face.<br/>
+                Our algorithms are designed to work with millions of records in enrollment databases with high accuracy and low false accept rate even for a search with one finger. High matching speed - up to 1 billion matches per 1 s - is a crucial advantage for big scale projects. It significantly saves customers budget: numbers of required matching servers is up to 100 times less than the same numbers for traditional recognition algorithms</h6></div>
         <div><Image
         src={content1}
         /></div>
@@ -188,8 +188,8 @@ export default function Home() {
         src={content2}
         height={500}
         /></div>
-        <div className="contents1"><h6>Banks go digital today. Now good service means that a lot of features can be provided to a client remotely, without visiting bank office. Biometric identification and verification help to prove customer's identity for online operations. Its safer and more convenient than a password, biometrics can not be forgotten or passed to someone else and it doesn't require memorizing. <br/>
-Our technologies unlock fingerprint recognition for user's online verification and customer onboarding, because it requires only a regular phone. Mobile SDK can verify a person using 4 fingers, which are user-friendly to capture. It ensures ultimate verification and identification accuracy, which is much higher than recognition with one face.</h6></div>
+        <div className="contents1"><h6>Banks go digital today. Now good service means that a lot of features can be provided to a client remotely, without visiting bank office. Biometric identification and verification help to prove customers identity for online operations. Its safer and more convenient than a password, biometrics can not be forgotten or passed to someone else and it doesnt require memorizing. <br/>
+Our technologies unlock fingerprint recognition for users online verification and customer onboarding, because it requires only a regular phone. Mobile SDK can verify a person using 4 fingers, which are user-friendly to capture. It ensures ultimate verification and identification accuracy, which is much higher than recognition with one face.</h6></div>
        
       </div>
       <div className="sub-market-head"><h3>Governmental services</h3></div>
@@ -214,8 +214,8 @@ Our technologies allow to acquire fingerprints by a scanner and a phone with com
       </div>
       <div className="sub-market-head"><h3>Forensic</h3></div>
       <div className="content-image-container">
-        <div className="contents1"><h6>Quality of latents collected from a crime scene is usually far away from ideal: its "dirty", partial, with artifacts. In many cases forensic experts should process it manually.<br/>
-        Unlike "traditional" algorithms, neural networks can identify even partial fingerprints automatically. Furthermore, ability of machine algorithms to recognize complicated patterns surpasses human's, so the algorithm can automatically find list of candidates and human can validate it manually.
+        <div className="contents1"><h6>Quality of latents collected from a crime scene is usually far away from ideal: its dirty, partial, with artifacts. In many cases forensic experts should process it manually.<br/>
+        Unlike traditional algorithms, neural networks can identify even partial fingerprints automatically. Furthermore, ability of machine algorithms to recognize complicated patterns surpasses humans, so the algorithm can automatically find list of candidates and human can validate it manually.
 Our SDK also have detection and segmentation algorithms for processing fingerprint cards and all types of fingerprints on it automatically.</h6></div>
         <div><Image
         src={content5}
